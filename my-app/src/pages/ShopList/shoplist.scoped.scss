@@ -1,0 +1,160 @@
+main .container {
+    width: 90%;
+  }
+  
+  main hr {
+    opacity: 0.5;
+  }
+  
+  main {
+    background: #FAFAF9;
+    padding: 80px 0;
+  }
+  
+  main #shopList-title .container .title h1 {
+    color: #0e0e0e;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+  }
+  
+  #shop-products{
+    padding: 120px 0 100px 0;
+  }
+  
+  #shop-products .container .row .shopProduct{
+      position: relative;
+  }
+  
+  #shop-products .container .row .shopProduct:hover .image-hover{
+      opacity: 0.85;
+  }
+  
+  #shop-products  .container .row .shopProduct .image {
+    position: relative;
+  }
+  
+  #shop-products  .container .row .shopProduct .image a img {
+    width: 100%;
+  }
+  
+  #shop-products  .container .row .shopProduct .image .info {
+    z-index: 9999;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    padding: 5px 13px;
+    letter-spacing: 1px;
+    background: #000;
+  }
+  
+  .custom-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    &:first-child{
+      margin-right: 1rem;
+    }
+    margin-bottom: 1rem;
+  }
+
+  #shop-products  .container .row .shopProduct .image .info.new {
+    background: #f34f3f;
+  }
+  
+  #shop-products  .container .row .shopProduct .image .info span {
+    font-size: 17px -1;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover {
+    cursor: pointer;
+    padding: 100px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 0;
+    transition: all .2s ease-out;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover .content {
+    opacity: 1;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover .content h6 a {
+    font-family: "Montserrat", sans-serif;
+    color: #1b1b1b;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover .content span {
+    font-family: "Montserrat", sans-serif;
+    color: #AFAFAF;
+    font-size: 12px;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover .content button.add-card {
+    background-color: #f34f3f;
+    border: 1px solid transparent;
+    padding: 13px 32px;
+  }
+  
+  #shop-products  .container .row .shopProduct .image-hover .content button.add-card a {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.833em;
+    letter-spacing: .1em;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+   #blossoms {
+    padding: 100px 0;
+  }
+  
+  #blossoms .container .row .blossom:hover .img a img {
+      transform: scale(1.03) translateZ(0);
+  }
+  
+  #blossoms .container .row .blossom .img {
+    overflow: hidden;
+  }
+  
+   #blossoms .container .row .blossom .img a {
+    transition: color .2s ease-out;
+  }
+  
+  #blossoms .container .row .blossom .img a img {
+    width: 100%;
+    transform: scale(1) translateZ(0);
+    transition: transform .3s ease;
+  }
+  
+  #blossoms .container .row .blossom .content h6 {
+    line-height: 1.3em;
+  }
+  
+  #blossoms .container .row .blossom .content h6 a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #1b1b1b;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  #blossoms .container .row .blossom .content span {
+    color: #AFAFAF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+  
+  
+  
+  

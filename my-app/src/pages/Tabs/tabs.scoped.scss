@@ -1,0 +1,208 @@
+main .container {
+    width: 90%;
+  }
+  
+  main hr {
+    opacity: 0.5;
+  }
+  
+  main {
+    background: #FAFAF9;
+    padding: 80px 0;
+  }
+  
+  main #tabs-title .container .title h1 {
+    color: #0e0e0e;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+  }
+   #firstTab,#secondTab,#thirdTab {
+    padding: 100px 0;
+  }
+  
+  main #firstTab .container .row .menus, #secondTab .container .row .menus,#thirdTab
+  .container .row .menus {
+    text-transform: uppercase;
+  }
+  
+  .menus.first-menus .menu {
+    border: 1px solid #eee;
+    border-bottom: none;
+    letter-spacing: 0.9px;
+  }
+  
+  .menus.first-menus .menu:nth-child(2) {
+    border-left: none;
+    border-right: none;
+  }
+  
+  .menus.first-menus .menu:not(.selected):hover {
+    color: #f34f3f;
+  }
+  
+   .menus.second-menus .menu {
+    letter-spacing: 1.2px;
+    background: #f6f6f6;
+  }
+  
+  .menus.second-menus .menu:not(.selected):hover {
+    color: #ffffff;
+    background: #f34f3f;
+  }
+   .menus .menu {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #1b1b1b;
+    padding: 20px 45px;
+    cursor: pointer;
+  }
+  #firstTab .container .row .menus .menu:hover, #secondTab .container .row .menus .menu:hover{
+    transition: all 0.2s ease-out;
+  }
+   #firstTab .menus .menu.selected {
+    color: #ffffff;
+    background: #f34f3f;
+  }
+  
+  #firstTab .container .row .contents,#thirdTab .container .row .contents {
+    border: 1px solid #eee;
+  }
+  #firstTab .container .row .contents .content {
+    padding: 75px 49px 40px 49px;
+  }
+  
+  #firstTab .container .row .contents .content:first-child p {
+    margin-bottom: 24px !important;
+  }
+  
+  #firstTab .container .row .contents .content p,#secondTab .container .row .contents .content p {
+    font-family: "Lora", serif;
+    color: #6D6A6A;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #secondTab .container .row .menus .menu {
+    letter-spacing: 0.9px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #1b1b1b;
+    padding: 20px 35px;
+    cursor: pointer;
+  }
+  
+  #secondTab .container .row .menus .menu:first-child {
+    padding-left: 0px;
+  }
+  #secondTab  .container .row .menus .menu.selected {
+    color: #f34f3f;
+  }
+  
+  #secondTab .container .row .contents {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #secondTab .container .row .contents .content {
+    padding: 75px 5px 75px 0px;
+  }
+  
+   #thirdTab .container .row .menus .menu {
+    border: 1px solid #eee;
+    letter-spacing: 0.9px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #1b1b1b;
+    padding: 20px 35px;
+    cursor: pointer;
+  }
+  
+  #thirdTab .container .row .menus .menu:nth-child(2) {
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  #thirdTab .container .row .menus .menu:hover {
+    transition: all 0.2s ease-out;
+    color: #ffffff;
+    background: #f34f3f;
+  }
+  
+   #thirdTab .container .row .menus .menu.selected {
+    color: #ffffff;
+    background: #f34f3f;
+  }
+   #thirdTab .container .row .contents .content {
+    padding: 25px 20px;
+  }
+   #thirdTab .container .row .contents .content p {
+    font-family: "Lora", serif;
+    color: #6D6A6A;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  footer {
+    background: #fefaf3;
+    padding: 80px 0 30px 0;
+  }
+  
+  .footer-item  h6 {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  
+  .footer-item ul {
+    list-style-type: none;
+  }
+  
+   .footer-item ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  
+   .footer-item ul li a:hover {
+    color: #f34f3f;
+    transition: all 0.2s ease-out;
+  }
+  
+   .copyright {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+   .copyright-title span {
+    font-size: 12px;
+    color: #AFAFAF;
+  }
+  
+  .copyright-title span a {
+    color: #6D6A6A;
+  }
+  
+  .copyright-title span a:hover {
+    color: #f34f3f;
+    transition: all 0.2s ease-out;
+  }
+  
+   .social-medias a {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #AFAFAF;
+    font-size: 10px;
+  }
+  
+  .social-medias a:first-child {
+    margin-right: 20px;
+  }
+  
+  .social-medias a:hover {
+    color: #f34f3f;
+    transition: all 0.2s ease-out;
+  }
+  

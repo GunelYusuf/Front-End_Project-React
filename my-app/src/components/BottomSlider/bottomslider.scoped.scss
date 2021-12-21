@@ -1,0 +1,61 @@
+#florist-slider1 {
+  padding: 120px 0;
+}
+
+#florist-slider1 .container .row .slider {
+  width: 45%;
+  margin: 0 auto;
+}
+
+#florist-slider1 .container .row .slider .item {
+  width: 100%;
+}
+
+#florist-slider1 .container .row .slider .item .image img {
+  width: 18%;
+  display: inline-block;
+}
+
+#florist-slider1 .container .row .slider .item .title p {
+  font-style: italic;
+  margin: 30px 0;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: #4b4747;
+  line-height: 1.5em;
+}
+
+#florist-slider1 .container .row .slider .item .title span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #afafaf;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+#florist-slider1 .container .row .slider .item .title span.name {
+  color: #1b1b1b;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#florist-slider1 .container .row .arrows .fa-arrow-left {
+  bottom: 15%;
+  float: left;
+  left: 30%;
+  position: absolute;
+  cursor: pointer;
+}
+#florist-slider1 .container .row .arrows .fa-arrow-right {
+  position: absolute;
+  bottom: 15%;
+  right: 30%;
+  float: right;
+  cursor: pointer;
+}
+#florist-slider1 .container .row .arrows .fal {
+  transform: scale(1.5, 1);
+}

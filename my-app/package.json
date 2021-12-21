@@ -1,0 +1,49 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "babel-plugin-react-scoped-css": "^1.1.1",
+    "craco-plugin-scoped-css": "^1.1.1",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "pure-react-carousel": "^1.27.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-isotope": "^1.0.0",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.6.0",
+    "react-use-cart": "^1.13.0",
+    "scoped-css-loader": "^1.0.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
