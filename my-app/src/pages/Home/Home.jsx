@@ -63,8 +63,8 @@ const Home = () => {
       <Slider />
       <section id="products-card">
         <div class="container p-0">
-          <div class="row w-100 m-0 p-0">
-            <div class="productAllNav d-flex justify-content-between">
+          <div class="row justify-content-between w-100 m-0 p-0">
+            <div class="productAllNav d-flex w-100 justify-content-between">
               <div class="products-navbar">
                 <h6>
                   Categories <i class="fas fa-caret-down" />
@@ -96,7 +96,7 @@ const Home = () => {
                 </ul>
               </div>
               <div class="filter">
-                <span>Filter</span>
+                <span>Filter{""}</span>
                 <i class="fas fa-caret-down" />
                 <div class="sub-filter d-flex">
                   <ul>
@@ -183,7 +183,7 @@ const Home = () => {
                         </div>
                         <div class="price">
                           <span>$</span>
-                          <span class="productTotalPrice">259</span>
+                          <span class="totalPrice">259</span>
                         </div>
                       </div>
                     </div>
@@ -348,7 +348,7 @@ const Home = () => {
                 <div class="b-card">
                   <div class="img">
                     <a href="#">
-                      <img src={buketnew} alt="Flower Power" />
+                      <img src={buketnew} alt="" />
                     </a>
                     <div class="date">
                       <a href="#">27.04.2018</a>
@@ -369,7 +369,7 @@ const Home = () => {
                 <div class="b-card">
                   <div class="img">
                     <a href="#">
-                      <img src={girlbuket} alt="Local Florists" />
+                      <img src={girlbuket} alt="" />
                     </a>
                     <div class="date">
                       <a href="#">03.05.2018</a>
@@ -390,7 +390,7 @@ const Home = () => {
                 <div class="b-card">
                   <div class="img">
                     <a href="#">
-                      <img src={whitetulips} alt="Flower Beauty" />
+                      <img src={whitetulips} alt="" />
                     </a>
                     <div class="date">
                       <a href="#">03.05.2018</a>

@@ -69,11 +69,13 @@ const ShopList = () => {
         <div class="container">
           <div className="row">
             <CarouselProvider
+              isPlaying={true}
               visibleSlides={4}
               style={{ width: "100%" }}
               naturalSlideWidth={2}
               naturalSlideHeight={2.5}
               totalSlides={productsDef.length}
+            
             >
               <div style={{width:'100%', display:'flex', justifyContent:'end'}}>
                 <ButtonBack className="custom-button" style={{borderRadius:'6px'}}><i class="fas fa-chevron-left"></i></ButtonBack>
@@ -84,7 +86,7 @@ const ShopList = () => {
                   return (
                     <div>
                       <Slide index={index}>
-                        <div class="shopProduct mb-4">
+                        <div class="shopProduct mb-4 mx-4">
                           <div class="image">
                             <a >
                               <img

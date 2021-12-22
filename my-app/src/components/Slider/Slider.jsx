@@ -24,8 +24,8 @@ const fadeImages = [
 
 const Slider = () => {
   const properties = {
-    prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><i class="fal fa-long-arrow-left fa-2x"></i></div>,
-    nextArrow: <div style={{width: "30px", marginLeft: "-30px"}}><i class="fal fa-long-arrow-right fa-2x"></i></div>
+    prevArrow: <div className="arrows" style={{width: "30px", marginRight: "-30px"}}><i class="fal fa-long-arrow-left fa-2x"></i></div>,
+    nextArrow: <div className="arrows" style={{width: "30px", marginLeft: "-30px"}}><i class="fal fa-long-arrow-right fa-2x"></i></div>
   };
 
   return (
@@ -43,20 +43,18 @@ const Slider = () => {
             className="each-fade"
             key={index}
           >
-            <div className="text-container">
-              <div class="title">
+            
+            <div class="title">
                 <h2>
                   Send <span>flowers</span> like you mean it.{" "}
                 </h2>
-              </div>
-              <div class="title-text">
-                <p>
+               <p>
                   Where flowers are our inspiration to create lasting memories.
                   Whatever the occasion, our flowers will make it special cursus
                   a sit amet mauris.{" "}
                 </p>
                 <img src={saraslider} alt="" />
-              </div>
+              
             </div>
             {/* <span class="arrows">
               <i class="fal fa-arrow-left" />

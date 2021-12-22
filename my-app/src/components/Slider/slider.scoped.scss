@@ -1,63 +1,131 @@
-.title h2 {
-  min-width: 350px;
-  max-width: 350px;
-  min-height: 103px;
-  max-height: 103px;
-  opacity: 1;
-  z-index: 4;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400px;
-  color: black;
-  font-family: "Playfair Display";
-  transition: none 0s ease 0s;
-  margin-left: 180px;
-}
-.title span {
-  color: red;
-  transition: none 0s ease 0s;
-  text-align: inherit;
-  line-height: 51px;
-  letter-spacing: 0px;
-  font-weight: 400;
-  font-size: 41px;
-}
-.title-text p {
-  margin-top: 20px;
-  margin-left: 180px;
-  z-index: 6;
-  min-width: 429px;
-  max-width: 429px;
-  white-space: normal;
-  font-size: 17px;
-  line-height: 29px;
-  font-weight: 400;
-  color: rgb(109, 106, 106);
-  letter-spacing: 0px;
-  font-family: Lora;
-  visibility: inherit;
-  transition: none 0s ease 0s;
-  min-height: 89px;
-  max-height: 89px;
-  opacity: 1;
+@media only screen and (max-width: 600px) {
+  #product-tab-menu .menus .menu {
+    text-align: center;
+  }
+  .arrows {
+    display: none !important;
+  }
+  #slider .title {
+    width: 70% !important;
+  }
 }
 
-.text-container {
+@media only screen and (max-width: 1300px) and (min-width: 1040px) {
+  #slider .title {
+    position: absolute;
+    top: 15% !important;
+    left: 100px !important;
+  }
+  #slider .title h2 {
+    padding: 0 0 10px 0 !important;
+  }
+  #slider .title p {
+    padding: 0 0 10px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1040px) and (min-width: 890px) {
+  #slider .title {
+    position: absolute;
+    top: 15% !important;
+    left: 100px !important;
+  }
+  #slider .title h2 {
+    padding: 0 0px 10px 0 !important;
+  }
+  #slider .title p {
+    padding: 0 0px 10px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  #slider .title {
+    position: absolute;
+    top: 15% !important;
+    left: 100px !important;
+  }
+  #slider {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #slider .title h2 {
+    padding: 0 0px 10px 0 !important;
+  }
+  #slider .title p {
+    padding: 0 0px 10px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #firstTab .menus .menu {
+    padding: 20px 22px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer .footer-item {
+    margin-left: 50px;
+  }
+  .join-us .searchArea .search-button button {
+    font-weight: 500;
+    height: 49px;
+  }
+  #join {
+    background-size: 200% auto;
+    overflow: hidden;
+  }
+  .join-us .title h3 {
+    font-size: 17px;
+  }
+  #slider .title {
+    position: absolute;
+    top: 15% !important;
+    left: 100px !important;
+    width: 60%;
+  }
+  #slider .title h2 {
+    padding: 0 0px 10px 0 !important;
+  }
+  #slider .title p {
+    padding: 0 0px 10px 0 !important;
+  }
+  #shop-products .shopProduct:hover .image-hover {
+    padding: 200px 0 !important;
+  }
+}
+
+#slider .title {
+  width: 30%;
   position: absolute;
-  display: inline-block;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
+  left: 200px;
+}
+#slider .title h2 {
+  padding: 0 90px 15px 0;
+  color: #0e0e0e;
+  font-family: "Playfair Display", serif;
+  font-size: 41px;
+  line-height: 51px;
+  font-weight: 400;
+}
+#slider .title h2 span {
+  color: #f34f3f;
+}
+
+#slider .title p {
+  padding: 0 10px 10px 0;
+  color: #6d6a6a;
+  font-size: 17px;
+  font-family: "Lora", serif;
+  line-height: 29px;
+  font-weight: 400;
 }
 
 #slider {
   position: relative;
 }
 
-.title-text img {
-  font-weight: 400;
-  font-size: 15px;
-  z-index: 7;
-  visibility: inherit;
-  transition: none 0s ease 0s;
-  margin-left: 180px;
+#slider .title img {
+  width: 197px;
+  height: 56px;
 }

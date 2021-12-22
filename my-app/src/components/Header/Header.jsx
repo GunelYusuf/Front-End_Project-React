@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./header.scoped.scss"
 import { useCart } from 'react-use-cart';
+import $ from "jquery"
 
 const Header = () => {
     const { addItem } = useCart()
@@ -11,6 +12,37 @@ const Header = () => {
         cartTotal,
         removeItem
     } = useCart()
+
+    useEffect(() => {
+           
+    
+        $(document).ready(function () {
+                $('header .navbar .navbar-list ul li a').click(function () {
+                    if ($(this).next().attr('class') == 'fas fa-caret-right') {
+                        $(this).next().removeClass('fa-caret-right');
+                        $(this).next().addClass('fa-caret-down');
+                    }
+                    else {
+                        $(this).next().removeClass('fa-caret-down');
+                        $(this).next().addClass('fa-caret-right');
+                    }
+                    $(this).next().next().slideToggle(500);
+                });
+            })
+
+            let openSidebar = document.querySelector('.navbar-icon .icon .openSidebar');
+            let close = document.querySelector('header .navbar .close')
+
+            openSidebar.addEventListener('click', function () {
+                document.body.classList.add('active');
+            })
+
+            close.addEventListener('click', function () {
+                document.body.classList.remove('active');
+            })
+  
+    },[]);
+
     return (
         <header class="head">
         <div class="container">
@@ -20,12 +52,12 @@ const Header = () => {
                         <div class="img">
                             <a href="#" style={{height: '25px'}}>
                                 <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h2-logo-1.png"
-                                    style={{width: '212px', height:'25px'}}  alt="Fiorello Logo" />
+                                    style={{width: '212px', height:'25px'}}  alt="" />
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-9 d-none">
+                <div class="col-9 display-none">
                     <div class="navbar-icon">
                         <div class="icon">
                             <i class="fas fa-bars openSidebar"></i>
@@ -449,7 +481,7 @@ const Header = () => {
                             <div class="search">
                                 <i class="fas fa-search"></i>
                                 <div class="searchArea">
-                                    <form action="#" class="d-flex">
+                                    <form class="d-flex">
                                         <input type="text" placeholder="Search" />
                                         <button type="submit"><i class="fas fa-search"></i></button>
                                     </form>
@@ -460,7 +492,7 @@ const Header = () => {
                                         id="productCount">{totalUniqueItems}</sup></a>
                                 <span class="cart">Cart</span>
                                 <span>($</span>
-                                <span id="productTotalPrice">{cartTotal}</span>
+                                <span id="totalPrice">{cartTotal}</span>
                                 <span>)</span>
                             </div>
                         </div>
