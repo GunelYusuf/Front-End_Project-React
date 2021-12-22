@@ -5,8 +5,8 @@ export const productsDef = [
     price: 259,
     img: "card-kaktus-img.jpeg",
     filter: ["popular"],
-    isSale:true,
-    isSold:false
+    isSale: true,
+    isSold: false,
   },
   {
     id: "2",
@@ -14,8 +14,8 @@ export const productsDef = [
     price: 259,
     img: "card-zanbaq-img.jpeg",
     filter: ["exotic", "popular"],
-    isSale:false,
-    isSold:true
+    isSale: false,
+    isSold: true,
   },
   {
     id: "3",
@@ -23,8 +23,8 @@ export const productsDef = [
     price: 259,
     img: "card-dibcek-img.jpeg",
     filter: ["winter"],
-    isSale:false,
-    isSold:true
+    isSale: false,
+    isSold: true,
   },
   {
     id: "4",
@@ -32,8 +32,8 @@ export const productsDef = [
     price: 259,
     img: "card-zanbaq-tum-img.jpeg",
     filter: ["exotic", "popular"],
-    isSale:false,
-    isSold:false
+    isSale: false,
+    isSold: false,
   },
   {
     id: "5",
@@ -41,8 +41,8 @@ export const productsDef = [
     price: 259,
     img: "card-orange-flower.jpeg",
     filter: ["exotic"],
-    isSale:false,
-    isSold:true
+    isSale: false,
+    isSold: true,
   },
   {
     id: "6",
@@ -163,6 +163,13 @@ export const productsDef = [
     img: "WILD-CACTUS.jpeg",
     filter: ["popular"],
   },
+  {
+    id:"23",
+    name: "ORANGE AMARYLLIS",
+    price: 259,
+    img: "card-orange-flower.jpeg",
+    filter: ["popular"],
+  },
 ];
 
 // {
@@ -170,11 +177,7 @@ export const productsDef = [
 //     "price":180,
 //     "img":"ordinary cactus.jpeg"
 // },
-// {
-//     "name":"ORANGE AMARYLLIS",
-//     "price":180,
-//     "img":"card-orange-flower.jpeg"
-// },
+
 // {
 //     "name":"WILD ROSES",
 //     "price":180,

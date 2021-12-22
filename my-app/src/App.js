@@ -9,6 +9,7 @@ import { CartProvider } from "react-use-cart";
 import Mainlayout from "./layouts/MainLayout/MainLayout";
 import Accordions from "./pages/Accordions/Accordions";
 import Home from "./pages/Home/Home";
+import ProductList from "./pages/ProductList/ProductList";
 import Progress from "./pages/Progress/Progress";
 import ShopList from "./pages/ShopList/ShopList";
 import Tabs from "./pages/Tabs/Tabs";
@@ -25,6 +26,7 @@ function App() {
               <Route exact path="/accordions" element={<Accordions />} />
               <Route exact path="/progress" element={<Progress />} />
               <Route exact path="/shop-list" element={<ShopList />} />
+              <Route exact path="/product-list" element={<ProductList />} />
             </Routes>
           </Mainlayout>
         </Router>
